@@ -16,8 +16,8 @@ h1 {
 body{
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-position:  top top;
-    background-size: cover;
+    background-position:  top;
+    background-size: contain;
     background-color: hsl(225, 100%, 94%);
     height: 100vh;
 
