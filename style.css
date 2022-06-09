@@ -16,10 +16,12 @@ h1 {
 body{
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-position:  center center;
+    background-position:  top top;
     background-size: cover;
     background-color: hsl(225, 100%, 94%);
     height: 100vh;
+
+
 }
 
 main {
@@ -27,6 +29,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 120px 0;
+
 }
 
 .small-text {
@@ -38,10 +42,13 @@ main {
 
 .main {
     width: 20%;
-    margin: 150px 0;
     border-radius: 10px;
     background-color: #fff;
     border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-text {
@@ -83,6 +90,7 @@ main {
 .para2 {
     font-size: 12px;
     color: hsl(224, 23%, 55%);
+    text-align: left;
 }
 
 .btn {
