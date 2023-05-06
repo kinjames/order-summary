@@ -95,14 +95,14 @@ main {
 
 .btn {
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px 0;
     width: 100%;
     color: #fff;
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
     outline: none;
     border: none;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 .btn-hero {
