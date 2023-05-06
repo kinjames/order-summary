@@ -102,12 +102,15 @@ main {
     border-radius: 10px;
     outline: none;
     border: none;
+        cursor: pointer;
 }
 
 .btn-hero {
     margin: 15px 0;
     font-size: 14px;
     color: hsl(223, 47%, 23%);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
